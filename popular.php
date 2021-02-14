@@ -22,7 +22,7 @@
                             <?php $post_views = get_post_meta($post->ID, "post_views_count", true); if ($post_views >= 1) { ?>
                             <div class="feat-info-wrap">
                                 <div class="feat-info-views">
-                                    <i class="fa fa-eye fa-2"></i> <span class="feat-info-text"><?php mvp_post_views(); ?></span>
+                                    <i class="fa fa-eye fa-2"></i> <span class="feat-info-text"><?php tribe_get_address() ?></span>
                                 </div><!--feat-info-views-->
                                 <?php if (get_comments_number()==0) {
                                 } else { ?>
