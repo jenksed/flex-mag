@@ -43,8 +43,6 @@
                     <span class="side-list-cat"><?php $category = get_the_category();
                     echo esc_html($category[0]->cat_name); ?></span>
                     <h2><?php the_title(); ?></h2>
-                    <p><?php tribe_get_city(); ?></p>
-
                 </div><!--feat-widget-text-->
                 </a>
             </div><!--feat-widget-wrap-->
